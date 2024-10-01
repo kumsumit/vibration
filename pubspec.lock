@@ -44,18 +44,20 @@ packages:
   device_info_plus:
     dependency: transitive
     description:
-      name: device_info_plus
-      sha256: a7fd703482b391a87d60b6061d04dfdeab07826b96f9abd8f5ed98068acc0074
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: bf9e597f8f1f929e0df59f3a868ee8fe80057755
+      url: "https://github.com/kumsumit/device_info_plus.git"
+    source: git
     version: "10.1.2"
   device_info_plus_platform_interface:
     dependency: transitive
     description:
-      name: device_info_plus_platform_interface
-      sha256: "282d3cf731045a2feb66abfe61bbc40870ae50a3ed10a4d3d217556c35c8c2ba"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: f12541f1af80bddda0e73e39f0712d629d9e26c0
+      url: "https://github.com/kumsumit/device_info_plus_platform_interface.git"
+    source: git
     version: "7.0.1"
   fake_async:
     dependency: transitive
@@ -155,10 +157,11 @@ packages:
   plugin_platform_interface:
     dependency: transitive
     description:
-      name: plugin_platform_interface
-      sha256: "4820fbfdb9478b1ebae27888254d445073732dae3d6ea81f0b7e06d5dedc3f02"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: "5b87c0b21d7dfa69ff1b00993bc6f895ab5b0de5"
+      url: "https://github.com/kumsumit/plugin_platform_interface.git"
+    source: git
     version: "2.1.8"
   sky_engine:
     dependency: transitive
@@ -224,10 +227,11 @@ packages:
   vibration_platform_interface:
     dependency: "direct main"
     description:
-      name: vibration_platform_interface
-      sha256: "735a5fef0f284de0ad9449a5ed7d36ba017c6f59b5b20ac64418af4a6bd35ee7"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: HEAD
+      resolved-ref: b64d74f52624b6177b279fe19755b0c84fbcb9a5
+      url: "https://github.com/kumsumit/vibration_platform_interface.git"
+    source: git
     version: "0.0.1"
   vm_service:
     dependency: transitive
@@ -263,4 +267,4 @@ packages:
     version: "1.1.5"
 sdks:
   dart: ">=3.4.0 <4.0.0"
-  flutter: ">=3.18.0-18.0.pre.54"
+  flutter: ">=3.19.3"

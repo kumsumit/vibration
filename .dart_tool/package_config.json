@@ -33,15 +33,15 @@
     },
     {
       "name": "device_info_plus",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/device_info_plus-10.1.2",
+      "rootUri": "file:///home/sumit/.pub-cache/git/device_info_plus-bf9e597f8f1f929e0df59f3a868ee8fe80057755/",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "device_info_plus_platform_interface",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/device_info_plus_platform_interface-7.0.1",
+      "rootUri": "file:///home/sumit/.pub-cache/git/device_info_plus_platform_interface-f12541f1af80bddda0e73e39f0712d629d9e26c0/",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.3"
     },
     {
       "name": "fake_async",
@@ -123,9 +123,9 @@
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "rootUri": "file:///home/sumit/.pub-cache/git/plugin_platform_interface-5b87c0b21d7dfa69ff1b00993bc6f895ab5b0de5/",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "sky_engine",
@@ -177,7 +177,7 @@
     },
     {
       "name": "vibration_platform_interface",
-      "rootUri": "file:///home/sumit/.pub-cache/hosted/pub.dev/vibration_platform_interface-0.0.1",
+      "rootUri": "file:///home/sumit/.pub-cache/git/vibration_platform_interface-b64d74f52624b6177b279fe19755b0c84fbcb9a5/",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -212,7 +212,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-09-18T17:58:57.892832Z",
+  "generated": "2024-09-18T23:38:48.809219Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///home/sumit/softwares/flutter",
