@@ -3,6 +3,8 @@ package com.benjaminabel.vibration;
 import android.content.Context;
 import android.os.Vibrator;
 
+import androidx.annotation.NonNull;
+
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.MethodChannel;
@@ -12,7 +14,7 @@ public class VibrationPlugin implements FlutterPlugin {
     private MethodChannel methodChannel;
 
     @Override
-    public void onDetachedFromEngine(FlutterPluginBinding binding) {
+    public void onDetachedFromEngine(@NonNull FlutterPluginBinding binding) {
         teardownChannels();
     }
 
