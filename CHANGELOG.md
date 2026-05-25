@@ -1,3 +1,71 @@
+### 3.1.8
+
+- Fix `repeat` parameter ignored on iOS. (#145 by @zeienko-vitalii)
+
+### 3.1.7
+
+- Fix Android deprecation warning for VIBRATOR_SERVICE. (#144 by @zeienko-vitalii)
+
+### 3.1.7-dev.1
+
+- Attempt to fix deprecation warning on Android.
+
+### 3.1.6
+
+- Fix crash on Android. (#140 by @armanagarwal)
+
+### 3.1.5
+
+- Adds Swift Package Manager compatibility.
+
+### 3.1.4
+
+> Note: This release has breaking changes.
+>
+> Plugin now requires the following:
+>
+> - Android Gradle Plugin >=8.12.1
+> - Gradle wrapper >=8.13
+> - Kotlin 2.2.0
+
+- Bump package `vibration_platform_interface` to "0.1.1"
+
+### 3.1.3
+
+- Fix intensities on iOS.
+- Lower miminum Compile SDK version for Android to 34
+
+### 3.1.2
+
+- Restore `hasAmplitudeControl` and `hasCustomVibrationsSupport` methods.
+
+### 3.1.1
+
+- Fix some cases where intensities were not being used correctly.
+
+### 3.1.0
+
+- Add common vibration patterns for Android and iOS.
+- Add `sharpness` parameter for iOS.
+- Suppress deprecation warnings for `vibrate` method on Android.
+
+### 3.0.0
+
+- The plugin has been recreated from scratch to align with the latest Flutter and Dart features.
+- The iOS version no longer depends on intensities and amplitude, and it now supports custom durations and patterns.
+- The example app is more intuitive and user-friendly.
+- Calling the `hasVibrator` method is no longer necessary.
+- Adjustments for null safety have been implemented.
+
+## 2.1.0
+
+- Fix vibration on iOS
+- All methods are now properly null-safe
+
+## 2.0.1
+
+- Bump package `vibration_platform_interface` to "0.0.2"
+
 ## 2.0.0
 
 - Remove references to Android embedding v1
@@ -96,7 +164,7 @@
 ## 1.1.0
 
 - Migrate to AndroidX (by [@gastonmuijtjens](https://github.com/gastonmuijtjens))
-- Add unit test for canceling vibration (by [@vintage](https://github.com/vintage)) 
+- Add unit test for canceling vibration (by [@vintage](https://github.com/vintage))
 
 ## 1.0.2
 

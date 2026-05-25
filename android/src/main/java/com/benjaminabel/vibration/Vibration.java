@@ -40,7 +40,7 @@ public class Vibration {
         long[] patternLong = new long[pattern.size()];
 
         for (int i = 0; i < patternLong.length; i++) {
-            patternLong[i] = pattern.get(i).intValue();
+            patternLong[i] = pattern.get(i);
         }
 
         if (vibrator.hasVibrator()) {
@@ -61,7 +61,7 @@ public class Vibration {
         int[] intensitiesArray = new int[intensities.size()];
 
         for (int i = 0; i < patternLong.length; i++) {
-            patternLong[i] = pattern.get(i).intValue();
+            patternLong[i] = pattern.get(i);
         }
 
         for (int i = 0; i < intensitiesArray.length; i++) {
