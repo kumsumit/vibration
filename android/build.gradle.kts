@@ -1,3 +1,6 @@
+import org.gradle.api.tasks.testing.Test
+import org.gradle.api.tasks.testing.logging.TestLogEvent
+
 plugins {
     id("com.android.library")
 }
@@ -24,27 +27,26 @@ android {
         targetCompatibility = JavaVersion.VERSION_21
     }
 
-    testOptions {
-        unitTests.all {
-            testLogging {
-                events(
-                    "passed",
-                    "skipped",
-                    "failed",
-                    "standardOut",
-                    "standardError"
-                )
-
-                showStandardStreams = true
-            }
-
-            outputs.upToDateWhen { false }
-        }
-    }
 }
 
 tasks.withType<JavaCompile>().configureEach {
     options.compilerArgs.add("-Xlint:deprecation")
+}
+
+tasks.withType<Test>().configureEach {
+    testLogging {
+        events = setOf(
+            TestLogEvent.PASSED,
+            TestLogEvent.SKIPPED,
+            TestLogEvent.FAILED,
+            TestLogEvent.STANDARD_OUT,
+            TestLogEvent.STANDARD_ERROR,
+        )
+
+        showStandardStreams = true
+    }
+
+    outputs.upToDateWhen { false }
 }
 
 dependencies {
